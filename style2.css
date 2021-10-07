@@ -1,57 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko:wght@500&display=swap');
 *{  margin: 0;
       padding: 0;
       box-sizing: border-box;}
 
-main{ width: 100%;
+/* XX-Large  (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {main{ width: 100%;
       height: 370px;
       margin-left: auto;
       margin-right: auto;}
 
 header{ 
-      width: 80%;
-    height: 180px;
-    background-color: #008ae6;
+      width: 100%;
+    height: 100px;
+    background-color: #4ab9ff;
     margin-left: auto;
     margin-right: auto;}
 
+#sombra{
+box-shadow: 7px 7px 7px #ff8e2a;
+-webkit-box-shadow: 7px 7px 7px #000000;
+-moz-box-shadow: 7px 7px 7px #ff8e2a;
+border: 1px solid #553245;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+} 
+nav{
+float: right;
+text-align: right;
+width: 100%; 
+height: 100px;
+background-color: #4ab9ff}
 
+section{
+      width: 100%;
+    height: 600px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;}
 
-footer{
-width: 80%;
-height: 60px;
-background-color: #008ae6;
-margin-left: auto;
-margin-right: auto;}
+#menu{
+margin: 0;
+height: 10px;
+width: 95%;}
 
 p{
 width: 90%;
 padding-top: 3%;
 font-size: 30px;
 color: #ffffff;
-font-family: 'Oswald', sans-serif;
+font-family: 'Odibee Sans', cursive;
 }
 
+#menu li{
+display: inline;   
+}
 
+#menu li a{
+font-size: 35px; 
+font-family: 'Teko', sans-serif;
+text-decoration: none;
+float: right;
+padding-top: 1.5%;
+padding-left: 5%;
+color: #ffffff;}
 
 #nombre{
+     margin-top: auto;
+     margin-bottom: auto;
 text-align: center;
-color: #c9aa00;
-font-family: 'Oswald', sans-serif;
+color: #ffffff;
+font-family: 'Teko', sans-serif;
 font-size: 20pt;
-line-height: 60px;
 text-decoration: none;
-}  
+}   
 
+#Sinopsis{
+float: left;
+padding-top: 1%%;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 8%;
+height: 100px;}
 
 a{
 text-decoration: none;
-color: #ffffff;
+padding-left: 7%;
 }
 
 body{
-background-color: #ffffff;
+background-color: #3d5581;
 }
 
 #fondo{
@@ -62,30 +99,572 @@ margin-right: auto;
 background-position: center;
 background-color: #341a1a;
 }
+h2{
+padding-top: 2%;
+padding-left: 7%;
+padding-bottom: 1%;
+font-size: 40px;
+color: #ffffff;
+font-family: 'Teko', sans-serif;
 
+}
+section a{
+float: left;
+width: 20%;
+padding-left: 7%;
+}
+h3{
+padding-top: 3%;
+padding-left: 24%;
+font-size: 40px;
+color: #ffffff;
+font-family: 'Odibee Sans', cursive;
+}
 
 #logo{
 font-size: 35px; 
-font-family: 'Oswald', sans-serif;
-color: #f1b000;
+font-family: 'Bebas Neue', cursive;
+color: #ffffff;
 padding-top: 1%;
 padding-left: 5%;
 float: left;}
 
-
-#sombra{
-   box-shadow: 7px 7px 7px #ff8e2a;
-   -webkit-box-shadow: 7px 7px 7px #000000;
-   -moz-box-shadow: 7px 7px 7px #ff8e2a;} 
-h1{
-text-align: center;
-color: #ffffff;
-font-family: 'Oswald', sans-serif;
-font-size: 55pt;
-line-height:150px;
+.pdf{
+width: 100%;
+height: 600px;
 }
 
-#up{
-      text-align: center;
-      padding: 20px;
+#fondo2{
+background-repeat: no-repeat;
+margin-left: auto;
+margin-right: auto;
+background-position: center;
+background-color: #152546;
+}
+
+#fondo3{
+      height: 800px;
+background-repeat: no-repeat;
+margin-left: auto;
+margin-right: auto;
+background-position: center;
+background-color: #152546;
+}
+
+footer{
+width: 100%;
+height: 60px;
+background-color: #083185;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+clear: both;}
+
+#elecciones{
+      display: block;
+width: 731px;
+height: 600px;
+margin-right: auto;
+margin-left: auto;
+}
+}
+
+/* XX-Large  (larger desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px){
+
+main{ width: 100%;
+      height: 370px;
+      margin-left: auto;
+      margin-right: auto;}
+
+header{ 
+      width: 100%;
+    height: 100px;
+    background-color: #4ab9ff;
+    margin-left: auto;
+    margin-right: auto;}
+
+#sombra{
+box-shadow: 7px 7px 7px #ff8e2a;
+-webkit-box-shadow: 7px 7px 7px #000000;
+-moz-box-shadow: 7px 7px 7px #ff8e2a;
+border: 1px solid #553245;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+} 
+nav{
+float: right;
+text-align: right;
+width: 100%; 
+height: 100px;
+background-color: #4ab9ff}
+
+section{
+      width: 100%;
+    height: 600px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;}
+
+#menu{
+margin: 0;
+height: 10px;
+width: 95%;}
+
+p{
+width: 90%;
+padding-top: 3%;
+font-size: 30px;
+color: #ffffff;
+font-family: 'Odibee Sans', cursive;
+}
+
+#menu li{
+display: inline;   
+}
+
+#menu li a{
+font-size: 35px; 
+font-family: 'Teko', sans-serif;
+text-decoration: none;
+float: right;
+padding-top: 1.5%;
+padding-left: 5%;
+color: #ffffff;}
+
+#nombre{
+     margin-top: auto;
+     margin-bottom: auto;
+text-align: center;
+color: #ffffff;
+font-family: 'Teko', sans-serif;
+font-size: 20pt;
+text-decoration: none;
+}   
+
+#Sinopsis{
+float: left;
+padding-top: 1%%;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 8%;
+height: 100px;}
+
+a{
+text-decoration: none;
+padding-left: 7%;
+}
+
+body{
+background-color: #3d5581;
+}
+
+#fondo{
+background-image: url(mapa.png);
+background-repeat: no-repeat;
+margin-left: auto;
+margin-right: auto;
+background-position: center;
+background-color: #341a1a;
+}
+h2{
+padding-top: 2%;
+padding-left: 7%;
+padding-bottom: 1%;
+font-size: 40px;
+color: #ffffff;
+font-family: 'Teko', sans-serif;
+
+}
+section a{
+float: left;
+width: 20%;
+padding-left: 7%;
+}
+h3{
+padding-top: 3%;
+padding-left: 24%;
+font-size: 40px;
+color: #ffffff;
+font-family: 'Odibee Sans', cursive;
+}
+
+#logo{
+font-size: 35px; 
+font-family: 'Bebas Neue', cursive;
+color: #ffffff;
+padding-top: 1%;
+padding-left: 5%;
+float: left;}
+
+.pdf{
+width: 100%;
+height: 600px;
+}
+
+#fondo2{
+background-repeat: no-repeat;
+margin-left: auto;
+margin-right: auto;
+background-position: center;
+background-color: #152546;
+}
+
+#fondo3{
+      height: 800px;
+background-repeat: no-repeat;
+margin-left: auto;
+margin-right: auto;
+background-position: center;
+background-color: #152546;
+}
+
+footer{
+width: 100%;
+height: 60px;
+background-color: #083185;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+clear: both;}
+
+#elecciones{
+      display: block;
+width: 731px;
+height: 600px;
+margin-right: auto;
+margin-left: auto;
+}
+}
+/*Medium  (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 1199px){
+main{ width: 100%;
+      height: 370px;
+      margin-left: auto;
+      margin-right: auto;}
+
+header{ 
+      width: 100%;
+    height: 100px;
+    background-color: #4ab9ff;
+    margin-left: auto;
+    margin-right: auto;}
+
+#sombra{
+box-shadow: 7px 7px 7px #ff8e2a;
+-webkit-box-shadow: 7px 7px 7px #000000;
+-moz-box-shadow: 7px 7px 7px #ff8e2a;
+border: 1px solid #553245;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+} 
+nav{
+float: right;
+text-align: right;
+width: 100%; 
+height: 100px;
+background-color: #4ab9ff}
+
+section{
+      width: 100%;
+    height: 600px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;}
+
+#menu{
+margin: 0;
+height: 10px;
+width: 95%;}
+
+p{
+width: 90%;
+padding-top: 3%;
+font-size: 30px;
+color: #ffffff;
+font-family: 'Odibee Sans', cursive;
+}
+
+#menu li{
+display: inline;   
+}
+
+#menu li a{
+font-size: 35px; 
+font-family: 'Teko', sans-serif;
+text-decoration: none;
+float: right;
+padding-top: 1.5%;
+padding-left: 5%;
+color: #ffffff;}
+
+#nombre{
+     margin-top: auto;
+     margin-bottom: auto;
+text-align: center;
+color: #ffffff;
+font-family: 'Teko', sans-serif;
+font-size: 20pt;
+text-decoration: none;
+}   
+
+#Sinopsis{
+float: left;
+padding-top: 1%%;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 8%;
+height: 100px;}
+
+a{
+text-decoration: none;
+padding-left: 7%;
+}
+
+body{
+background-color: #3d5581;
+}
+
+#fondo{
+background-image: url(mapa.png);
+background-repeat: no-repeat;
+margin-left: auto;
+margin-right: auto;
+background-position: center;
+background-color: #341a1a;
+}
+h2{
+padding-top: 2%;
+padding-left: 7%;
+padding-bottom: 1%;
+font-size: 40px;
+color: #ffffff;
+font-family: 'Teko', sans-serif;
+
+}
+section a{
+float: left;
+width: 20%;
+padding-left: 7%;
+}
+h3{
+padding-top: 3%;
+padding-left: 24%;
+font-size: 40px;
+color: #ffffff;
+font-family: 'Odibee Sans', cursive;
+}
+
+#logo{
+font-size: 35px; 
+font-family: 'Bebas Neue', cursive;
+color: #ffffff;
+padding-top: 1%;
+padding-left: 5%;
+float: left;}
+
+.pdf{
+width: 100%;
+height: 600px;
+}
+
+#fondo2{
+background-repeat: no-repeat;
+margin-left: auto;
+margin-right: auto;
+background-position: center;
+background-color: #152546;
+}
+
+#fondo3{
+      height: 800px;
+background-repeat: no-repeat;
+margin-left: auto;
+margin-right: auto;
+background-position: center;
+background-color: #152546;
+}
+
+footer{
+width: 100%;
+height: 60px;
+background-color: #083185;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+clear: both;}
+
+#elecciones{
+      display: block;
+width: 731px;
+height: 600px;
+margin-right: auto;
+margin-left: auto;
+}      
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+   main{ width: 100%;
+      height: 370px;
+      margin-left: auto;
+      margin-right: auto;}
+
+header{ 
+      width: 100%;
+    height: 90px;
+    background-color: #4ab9ff;
+    margin-left: auto;
+    margin-right: auto;}
+
+#sombra{
+box-shadow: 7px 7px 7px #ff8e2a;
+-webkit-box-shadow: 7px 7px 7px #000000;
+-moz-box-shadow: 7px 7px 7px #ff8e2a;
+border: 1px solid #553245;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+} 
+nav{
+float: right;
+text-align: right;
+width: 100%; 
+height: 100px;
+background-color: #4ab9ff}
+
+section{
+      width: 100%;
+;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;}
+
+#menu{
+margin: 0;
+height: 10px;
+width: 95%;}
+
+p{
+width: 90%;
+padding-top: 3%;
+font-size: 30px;
+color: #ffffff;
+font-family: 'Odibee Sans', cursive;
+}
+
+#menu li{
+display: inline;   
+}
+
+#menu li a{
+font-size: 25px; 
+font-family: 'Teko', sans-serif;
+text-decoration: none;
+float: right;
+padding-top: 1.5%;
+padding-left: 5%;
+color: #ffffff;}
+
+#nombre{
+     margin-top: auto;
+     margin-bottom: auto;
+text-align: center;
+color: #ffffff;
+font-family: 'Teko', sans-serif;
+font-size: 20pt;
+text-decoration: none;
+}   
+
+#Sinopsis{
+float: left;
+padding-top: 1%%;
+padding-left: 5%;
+padding-right: 5%;
+padding-bottom: 8%;
+height: 100px;}
+
+a{
+text-decoration: none;
+padding-left: 7%;
+}
+
+body{
+background-color: #3d5581;
+}
+
+#fondo{
+background-image: url(mapa.png);
+background-repeat: no-repeat;
+margin-left: auto;
+margin-right: auto;
+background-position: center;
+background-color: #341a1a;
+}
+h2{
+padding-top: 2%;
+padding-left: 7%;
+padding-bottom: 1%;
+font-size: 40px;
+color: #ffffff;
+font-family: 'Teko', sans-serif;
+
+}
+section a{
+float: left;
+width: 20%;
+padding-left: 7%;
+}
+h3{
+padding-top: 3%;
+padding-left: 24%;
+font-size: 40px;
+color: #ffffff;
+font-family: 'Odibee Sans', cursive;
+}
+
+#logo{
+font-size: 25px; 
+font-family: 'Bebas Neue', cursive;
+color: #ffffff;
+padding-top: 1%;
+padding-left: 5%;
+float: left;}
+
+.pdf{
+width: 100%;
+height: 600px;
+}
+
+#fondo2{
+background-repeat: no-repeat;
+margin-left: auto;
+margin-right: auto;
+background-position: center;
+background-color: #152546;
+}
+
+#fondo3{
+      height: 800px;
+background-repeat: no-repeat;
+margin-left: auto;
+margin-right: auto;
+background-position: center;
+background-color: #152546;
+}
+
+footer{
+width: 100%;
+height: 60px;
+background-color: #083185;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+clear: both;}
+
+#elecciones{
+      display: block;
+width: 576px;
+height: 473px;
+margin-right: auto;
+margin-left: auto;
+}   
 }
